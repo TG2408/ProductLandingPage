@@ -1,6 +1,12 @@
+html {
+    background-color: rgb(216, 221, 227);
+}
 #header {
+    position: sticky;
+    top: 0;
     display: flex;
     padding: 20px;
+    background-color: rgb(216, 221, 227);
 }
 
 #header-img {
@@ -59,5 +65,41 @@
     border: 5px solid black;
     border-radius: 10px;
     width: 560px;
-    margin-left: 480px;
+    margin: 100px 0 0 480px;
+}
+
+#pricing-total {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 100px auto auto auto;
+}
+
+.pricing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 250px;
+    margin: 30px 20px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    height: 290px;
+}
+
+.select {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 70px;
+    left: 80px;
+    margin: 20px 0;
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.price-heading {
+    background-color: thistle;
+    padding: 20px 30px;
 }
