@@ -103,3 +103,51 @@ html {
     background-color: thistle;
     padding: 20px 30px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    html {
+        background-color: sandybrown;
+    }
+    #header {
+        position: static;
+        top: 0;
+        display: block;
+        padding: 20px;
+        background-color: rgb(216, 221, 227);
+    }
+
+    #nav-bar {
+        margin: 0px;
+    }
+
+    .nav-link{
+        display: block;
+    }
+
+    #pricing-total {
+        display: block;
+        width: 800px;
+    }
+
+    .pricing {
+        border: 2px solid red;
+        display: block;
+        width: 300px;
+       
+    }
+
+    #vedio {
+        border: 5px solid black;
+        border-radius: 10px;
+        width: 450px;
+        margin: auto;
+    }
+
+    #features {
+        width: 400px;
+        margin: auto;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
